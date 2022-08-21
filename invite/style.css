@@ -1,0 +1,33 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
+h1{
+    position: sticky;
+    width: 100%;
+}
+body{
+    background-color: rgb(200, 200, 200);
+    background-image: url(https://imagepng.org/coracao/);
+}
+#runningButton{
+    position: static;
+    top: 0px;
+    left: 0px;
+}
+button{
+    background-color: crimson;
+    font-size: 200%;
+    font-style: bold;
+    width: 250px;
+    height: 100px;
+    align-items: center;
+    margin-left: 40px;
+    border: 0px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+button:hover{
+    box-shadow: none;
+    background-color: crimson;
+}

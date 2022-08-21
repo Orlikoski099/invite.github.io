@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <title>Calculadora de juros Compostos</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+    </style>
+</head>
+<body>
+    <div id="header">
+        <header>
+            <h1>Calculadora de juros Compostos</h1>
+        </header>
+    </div>
+    <div id="content">
+        
+        <div class="input">
+            
+            <label for="capInvestido">Capital a ser investido:</label>
+            <input type="text" name="capInvestido" id="capital" value="500,00">
+            <br>
+            <label for="duracao">Duração do investimento(meses):</label>  
+            <input type="text" name="duracao" id="meses" value="18">
+            <br>
+            <label for="taxa">Taxa de Juros (%):</label>
+            <input type="text" name="taxa" id="juros" value="2.5">
+            <br>
+            <div id="increaseKind">
+                <label for="tempo" ></label>Prazo de Juros(Mensal ou Anual)</label><br>
+                <input type="radio" name="prazo" checked >Mensal</input>     
+                <input type="radio" name="prazo" id="anual" >Anual</input>                      
+            </div>         
+            <button onclick="tableGenerator()">Calcular!</button>
+        </div>
+        
+        <table border="1">
+            <thead>
+                <th>Mês</th>
+                <th>Rendimento</th>
+                <th>Total</th> 
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+
+        <h2 id="progress">
+
+        </h2>
+
+        <div id="progressbarOut">
+            <div id="progressbar">
+
+            </div>
+        <div>        
+    </div>
+</body>
+
+</html>

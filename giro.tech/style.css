@@ -1,0 +1,88 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(44, 165, 230);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #000
+}
+
+body {
+    background-color: #ededed
+}
+
+#content{
+padding: 30px 50px;
+}
+
+.input{
+    background-color: #fafbfc;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    padding: 5px;
+    display: grid;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: 0;
+}
+
+button{
+    font-weight: bold;
+    height: 30px;
+    box-shadow: 0 0 40px 40px rgb(44, 165, 230) inset, 0 0 0 0 rgb(44, 165, 230);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    border-radius: 5px;
+}
+
+button:hover {    
+    box-shadow: 0 0 10px 0 rgb(44, 165, 230) inset, 0 0 10px 4px rgb(44, 165, 230);
+}
+
+table {    
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-collapse: collapse;
+    width: 100%;
+}
+table th {
+    background-color: rgb(217, 217, 217);
+}
+table tbody {
+    text-align: center;
+}
+#increaseKind{
+    text-align:center;
+    display: inline;
+    padding: 15px;
+}
+#progressbarOut{
+    width: 100%;
+    height: 35px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 32px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+#progressbar{
+    width: 0px;
+    height: 100%;
+    background-color: rgb(44, 165, 230);
+    border-radius: 10px;
+}
+#progress{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
