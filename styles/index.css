@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    background-color: gray;
+}
+.content{
+    margin: 15px;
+}
+.info{
+    padding: 15px;
+    background-color: lightgray;
+    display: grid;
+}
+.info p{
+    justify-content: center;
+    padding: 5px;
+}
+.proj_skills{
+    display: inline-block;
+}
+.projects{
+    padding: 15px;
+    margin-top: 15px;
+    display: grid;
+    background-color: lightgray;
+}
+.projects .proj{
+    justify-content: center;
+    padding: 10px;
+    display: block;
+    background-color: aquamarine;
+    color: white;
+    border: black 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    transition: 0.2s;
+}
+.projects .proj:hover{
+    background-color: white;
+    color: aquamarine;
+}
+.skills{
+    padding: 15px;
+    margin-top: 15px;
+    display: inline-block;
+    background-color: lightgray;
+}
+.languages{
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+.lang{
+    width: 112px;
+    height: 112px;
+    display: inline-block;
+    padding: 10px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    margin-top: 5px;
+}
+.lang:hover{
+     outline: 2px solid white;
+     outline-offset: -2px;
+ }
+.stars img{
+    width: 16px;
+    height: 16px;
+}
+.lang_img{
+    width: 96px;
+    height: 96px;
+}
+#siteName{
+    padding: 15px 30px;
+    display: inline-block;
+    background-color: aquamarine;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: right;
+    transition: 0.2s;
+}
+#siteName:hover{
+    background-color: white;
+    color: aquamarine;
+}
+.social_media{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+.social_media_group{
+    min-width: 200px;
+    margin-top: 5px;
+    align-items: flex-end;
+    justify-content: center;
+    display: none;
+    transition: 0.2s;
+}
+.social_media:hover{
+    background-color: lightgray;
+    border: white 2px;
+}
+.social_media_group a{
+    text-decoration: none;
+}
+#arrow{
+    justify-content: right;
+    padding: 15px;
+    transition: 0.2s;
+    transform: rotateY(-40deg);
+}
+#arrow:hover{
+    background-color: lightgray;
+    outline: white 4px;
+}
