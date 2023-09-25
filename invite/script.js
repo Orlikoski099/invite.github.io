@@ -1,6 +1,10 @@
 function MovePosition(){
-    marginLeft = parseInt (Math.random() * 1000);
-    marginTop = parseInt (Math.random() * 1000);
+
+    let w = window.screen.width
+    let h = window.screen.height
+
+    marginLeft = parseInt (Math.random() * w);
+    marginTop = parseInt (Math.random() * h);
     const runningButton = document.getElementById("runningButton");  
     runningButton.style.position="fixed"
     runningButton.style.left = marginLeft +'px';
